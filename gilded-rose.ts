@@ -1,4 +1,5 @@
 export const SULFURUS = 'Sulfuras, Hand of Ragnaros';
+export const BRIE = 'Aged Brie';
 export class Item {
   name: string;
   sellIn: number;
