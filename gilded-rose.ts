@@ -1,4 +1,4 @@
-export const SULFURUS = 'Sulfuras, Hand of Ragnaros';
+export const SULFURAS = 'Sulfuras, Hand of Ragnaros';
 export const BRIE = 'Aged Brie';
 export class Item {
   name: string;
@@ -26,7 +26,7 @@ export class GildedRose {
         this.items[i].name != 'Backstage passes to a TAFKAL80ETC concert'
       ) {
         if (this.items[i].quality > 0) {
-          if (this.items[i].name != SULFURUS) {
+          if (this.items[i].name != SULFURAS) {
             this.items[i].quality = this.items[i].quality - 1;
           }
         }
@@ -49,7 +49,7 @@ export class GildedRose {
           }
         }
       }
-      if (this.items[i].name != SULFURUS) {
+      if (this.items[i].name != SULFURAS) {
         this.items[i].sellIn = this.items[i].sellIn - 1;
       }
       if (this.items[i].sellIn < 0) {
@@ -58,7 +58,7 @@ export class GildedRose {
             this.items[i].name != 'Backstage passes to a TAFKAL80ETC concert'
           ) {
             if (this.items[i].quality > 0) {
-              if (this.items[i].name != SULFURUS) {
+              if (this.items[i].name != SULFURAS) {
                 this.items[i].quality = this.items[i].quality - 1;
               }
             }
